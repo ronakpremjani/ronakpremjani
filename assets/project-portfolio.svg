@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" width="440" height="320">
+  <defs>
+    <linearGradient id="cardGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <!-- Subtle green accent gradient for top border -->
+    <linearGradient id="borderGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#3FB950" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#3FB950" stop-opacity="1"/>
+      <stop offset="70%"  stop-color="#3FB950" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3FB950" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="cardShadow2">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#3FB950" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <style>
+    .ct2 {
+      font-family: "SF Mono", "Fira Code", "JetBrains Mono", monospace;
+    }
+    .c2-dim    { fill: #555555; font-size: 11px; }
+    .c2-label  { fill: #8B949E; font-size: 12px; }
+    .c2-title  { fill: #F8FAFC; font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
+    .c2-desc   { fill: #9CA3AF; font-size: 12.5px; }
+    .c2-tag    { fill: #3FB950; font-size: 11px; }
+    .c2-status { fill: #60A5FA; font-size: 11px; }
+    .c2-link   { fill: #3FB950; font-size: 11.5px; }
+  </style>
+
+  <!-- Card base -->
+  <rect x="0" y="0" width="440" height="320" rx="10" fill="url(#cardGrad2)" filter="url(#cardShadow2)"/>
+  <rect x="0" y="0" width="440" height="320" rx="10" fill="none" stroke="#242424" stroke-width="1"/>
+  <!-- Green top border accent -->
+  <rect x="30" y="0" width="380" height="1.5" rx="1" fill="url(#borderGrad2)"/>
+
+  <!-- Header area -->
+  <g class="ct2" transform="translate(24, 28)">
+
+    <!-- Type label -->
+    <text class="c2-dim">◈  PROJECT · 02</text>
+
+    <!-- Status pill (LIVE/SHIPPED) -->
+    <rect x="290" y="-14" width="120" height="20" rx="10" fill="#0A1E2A"/>
+    <rect x="290" y="-14" width="120" height="20" rx="10" fill="none" stroke="#1A4A6A" stroke-width="1"/>
+    <text x="302" y="-1" class="ct2 c2-status">● PORTFOLIO</text>
+
+    <!-- Project name -->
+    <text y="36" class="ct2 c2-title">Developer Portfolio</text>
+
+    <!-- Short tagline -->
+    <text y="58" class="ct2 c2-desc">Premium personal portfolio built for impact and recall.</text>
+
+  </g>
+
+  <!-- Separator -->
+  <line x1="24" y1="102" x2="416" y2="102" stroke="#1E1E1E" stroke-width="1"/>
+
+  <!-- Features list -->
+  <g class="ct2" transform="translate(24, 122)">
+    <text class="c2-label">FEATURES</text>
+
+    <text y="22" class="ct2 c2-desc">→  Cinematic scroll animations (GSAP)</text>
+    <text y="40" class="ct2 c2-desc">→  Smooth page transitions (Framer Motion)</text>
+    <text y="58" class="ct2 c2-desc">→  Responsive · accessible · performant</text>
+    <text y="76" class="ct2 c2-desc">→  Custom cursor &amp; micro-interactions</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="24" y1="218" x2="416" y2="218" stroke="#1E1E1E" stroke-width="1"/>
+
+  <!-- Tech tags -->
+  <g transform="translate(24, 234)">
+    <!-- Tag 1 -->
+    <rect x="0" y="0" width="68" height="22" rx="4" fill="#0D1E16"/>
+    <rect x="0" y="0" width="68" height="22" rx="4" fill="none" stroke="#1A3A26" stroke-width="1"/>
+    <text x="8" y="15" class="ct2 c2-tag">React.js</text>
+
+    <!-- Tag 2 -->
+    <rect x="76" y="0" width="54" height="22" rx="4" fill="#0D1E16"/>
+    <rect x="76" y="0" width="54" height="22" rx="4" fill="none" stroke="#1A3A26" stroke-width="1"/>
+    <text x="84" y="15" class="ct2 c2-tag">GSAP</text>
+
+    <!-- Tag 3 -->
+    <rect x="138" y="0" width="110" height="22" rx="4" fill="#0D1E16"/>
+    <rect x="138" y="0" width="110" height="22" rx="4" fill="none" stroke="#1A3A26" stroke-width="1"/>
+    <text x="146" y="15" class="ct2 c2-tag">Framer Motion</text>
+
+    <!-- Tag 4 -->
+    <rect x="256" y="0" width="84" height="22" rx="4" fill="#0D1E16"/>
+    <rect x="256" y="0" width="84" height="22" rx="4" fill="none" stroke="#1A3A26" stroke-width="1"/>
+    <text x="264" y="15" class="ct2 c2-tag">Tailwind CSS</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="24" y1="276" x2="416" y2="276" stroke="#1E1E1E" stroke-width="1"/>
+
+  <!-- Footer links -->
+  <g class="ct2" transform="translate(24, 296)">
+    <text class="ct2 c2-link">⌥  View Repo</text>
+    <text x="220" class="ct2 c2-dim">→  ronakpremjani.dev</text>
+  </g>
+</svg>

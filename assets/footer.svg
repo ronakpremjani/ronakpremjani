@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <linearGradient id="fWinGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <linearGradient id="fHdrGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#141414"/>
+    </linearGradient>
+    <filter id="fGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .ft {
+      font-family: "SF Mono", "Fira Code", "JetBrains Mono", "Cascadia Code", monospace;
+      font-size: 14px;
+    }
+    .tab-f {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 12px;
+      fill: #555555;
+    }
+    .fd  { fill: #666666; }
+    .fp  { fill: #60A5FA; }
+    .fc  { fill: #E6EDF3; }
+    .fg  { fill: #3FB950; }
+    .fi  { fill: #8B949E; font-style: italic; }
+
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @keyframes blink  { 0%,100%{ opacity:1; } 50%{ opacity:0; } }
+
+    .b0  { opacity:0; animation: fadeIn .15s ease forwards .2s;  }
+    .b1  { opacity:0; animation: fadeIn .15s ease forwards .8s;  }
+    .b2  { opacity:0; animation: fadeIn .15s ease forwards 1.4s; }
+    .b3  { opacity:0; animation: fadeIn .15s ease forwards 2.0s; }
+    .b4  { opacity:0; animation: fadeIn .15s ease forwards 2.6s; }
+    .b5  { opacity:0; animation: fadeIn .15s ease forwards 3.2s; }
+    .bcursor {
+      opacity: 0;
+      animation: fadeIn .1s ease forwards 3.8s, blink 1.1s step-end infinite 3.8s;
+    }
+  </style>
+
+  <!-- Window -->
+  <rect x="0" y="0" width="900" height="220" rx="12" fill="url(#fWinGrad)"/>
+  <rect x="0" y="0" width="900" height="220" rx="12" fill="none" stroke="#242424" stroke-width="1"/>
+
+  <!-- Title Bar -->
+  <rect x="1" y="1" width="898" height="40" rx="12" fill="url(#fHdrGrad)"/>
+  <rect x="1" y="29" width="898" height="12" fill="#0A0A0A"/>
+  <line x1="1" y1="41" x2="899" y2="41" stroke="#242424" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="21" r="6.5" fill="#FF5F56"/>
+  <circle cx="45" cy="21" r="6.5" fill="#FFBD2E"/>
+  <circle cx="66" cy="21" r="6.5" fill="#27C93F"/>
+
+  <text x="450" y="26" class="tab-f" text-anchor="middle">visitor@ronak — session complete</text>
+
+  <!-- Footer Content -->
+  <g class="ft" transform="translate(36, 72)">
+
+    <!-- git commit command -->
+    <text class="b0">
+      <tspan class="fp">visitor@ronak</tspan>
+      <tspan class="fd">:</tspan>
+      <tspan class="fp">~</tspan>
+      <tspan class="fd">$ </tspan>
+      <tspan class="fc">git commit -m "Keep Building"</tspan>
+    </text>
+
+    <!-- commit hash output -->
+    <text y="30" class="b1 fd">[main a1b2c3d] Keep Building</tspan></text>
+
+    <!-- Pushed -->
+    <text y="60" class="b2 fg" filter="url(#fGlow)">Pushed successfully.</text>
+
+    <!-- Spacer -->
+    <text y="92" class="b3 fd">Connection to ronak.dev closed.</text>
+
+    <!-- Sign-off -->
+    <text y="116" class="b4 fi">See you in the next commit.</text>
+
+    <!-- Trailing prompt -->
+    <g class="b5" transform="translate(0, 138)">
+      <text>
+        <tspan class="fp">visitor@local</tspan>
+        <tspan class="fd">:</tspan>
+        <tspan class="fp">~</tspan>
+        <tspan class="fd">$ </tspan>
+      </text>
+    </g>
+    <text x="142" y="138" class="bcursor fc">▊</text>
+
+  </g>
+</svg>
