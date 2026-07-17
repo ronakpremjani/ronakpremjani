@@ -37,7 +37,7 @@
   ██║  ██║╚██████╔╝██║ ╚████║██║  ██║██║  ██╗
   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝
 
-            P · R · E · M · J · A · N · I                                                                        
+                           P · R · E · M · J · A · N · I                                                                        
 ```
 
 </div>
@@ -262,10 +262,10 @@ const ronak = {
 │   ACTIVE OPERATIONS  —  2026                                                │
 │   ─────────────────────────                                                 │
 │                                                                             │
-│   Internship        ████████████░░░░░░░░░░░░░░   48%   Searching           │
-│   Freelance         ████████░░░░░░░░░░░░░░░░░░   32%   Building Base       │
-│   Open Source       █████░░░░░░░░░░░░░░░░░░░░░   20%   Exploring           │
-│   SaaS MVP          ██░░░░░░░░░░░░░░░░░░░░░░░░   10%   Ideation            │
+│   Internship        ████████████░░░░░░░░░░░░░░   48%   Searching            │
+│   Freelance         ████████░░░░░░░░░░░░░░░░░░   32%   Building Base        │
+│   Open Source       █████░░░░░░░░░░░░░░░░░░░░░   20%   Exploring            │
+│   SaaS MVP          ██░░░░░░░░░░░░░░░░░░░░░░░░   10%   Ideation             │
 │                                                                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
@@ -420,7 +420,7 @@ const ronak = {
 ║   Connection closed.                                                         ║
 ║   Keep building.                                                             ║
 ║                                                                              ║
-║   Crafted with intention by Ronak Premjani · RonakOS v2.0                   ║
+║   Crafted with intention by Ronak Premjani · RonakOS v2.0                    ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 =======
