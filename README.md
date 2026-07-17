@@ -2,12 +2,12 @@
 <!-- 
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║   R O N A K   P R E M J A N I  ·  G I T H U B   P R O F I L E             ║
+║   R O N A K   P R E M J A N I  ·  G I T H U B   P R O F I L E                ║
 ║                                                                              ║
 ║   Theme     RonakOS — Minimal Terminal Experience                            ║
 ║   Version   2.0.0                                                            ║
-║   Palette   #0A0A0A · #F8FAFC · #8B949E · #60A5FA · #3FB950                ║
-║   Font      SF Mono · Fira Code · JetBrains Mono                            ║
+║   Palette   #0A0A0A · #F8FAFC · #8B949E · #60A5FA · #3FB950                  ║
+║   Font      SF Mono · Fira Code · JetBrains Mono                             ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
@@ -37,7 +37,7 @@
   ██║  ██║╚██████╔╝██║ ╚████║██║  ██║██║  ██╗
   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝
 
-  P · R · E · M · J · A · N · I                                                                        
+            P · R · E · M · J · A · N · I                                                                        
 ```
 
 </div>
@@ -80,7 +80,6 @@
 │   Location      India                                                       │
 │   Focus         Building production-ready web applications                  │
 │                                                                             │
-│   Currently     Chatvia — real-time chat platform  [ IN PROGRESS ]          │
 │   Seeking       Internship  ·  Freelance  ·  Startup Opportunities          │
 │                                                                             │
 │   Status        Open to work  ●                                             │
@@ -114,7 +113,6 @@
 │   CURRENT OBJECTIVES                                                        │
 │   ──────────────────                                                        │
 │                                                                             │
-│   →  Ship Chatvia to production with real users                             │
 │   →  Land a high-quality internship or freelance client                     │
 │   →  Contribute meaningfully to open source                                 │
 │   →  Master system design principles                                        │
@@ -205,8 +203,8 @@ const ronak = {
     contact: {
         linkedin:   "linkedin.com/in/ronakpremjani",
         github:     "github.com/ronakpremjani",
-        email:      "ronak@example.com",
-        portfolio:  "ronakpremjani.dev",
+        email:      "ronakpremjani8@gmail.com",
+        portfolio:  "",
     },
 
 };
@@ -238,9 +236,6 @@ const ronak = {
   <table>
     <tr>
       <td width="50%" valign="top">
-        <img src="./assets/project-chatvia.svg" width="100%" alt="Chatvia — Real-time Chat Application" />
-      </td>
-      <td width="50%" valign="top">
         <img src="./assets/project-portfolio.svg" width="100%" alt="Developer Portfolio" />
       </td>
     </tr>
@@ -267,7 +262,6 @@ const ronak = {
 │   ACTIVE OPERATIONS  —  2026                                                │
 │   ─────────────────────────                                                 │
 │                                                                             │
-│   Chatvia (v1.0)    ████████████████████░░░░░░   78%   In Progress         │
 │   Internship        ████████████░░░░░░░░░░░░░░   48%   Searching           │
 │   Freelance         ████████░░░░░░░░░░░░░░░░░░   32%   Building Base       │
 │   Open Source       █████░░░░░░░░░░░░░░░░░░░░░   20%   Exploring           │
