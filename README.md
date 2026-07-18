@@ -271,7 +271,6 @@ const ronak = {
 │   ───────────────                                                           │
 │                                                                             │
 │   [x]  Master React.js ecosystem                                            │
-│   [x]  Build Chatvia (real-time chat application)                           │
 │   [x]  Create a premium developer portfolio                                 │
 │   [ ]  Land first internship at a quality company                           │
 │   [ ]  Make first open source contribution                                  │
