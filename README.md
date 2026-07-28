@@ -390,11 +390,11 @@ const ronak = {
     <img src="https://img.shields.io/badge/X_(Twitter)-0A0A0A?style=for-the-badge&logo=x&logoColor=white&labelColor=0A0A0A" alt="X / Twitter" />
   </a>
   &nbsp;
-  <a href="mailto:ronak@example.com">
+  <a href="mailto:ronakpremjani8@example.com">
     <img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0A" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://ronakpremjani.dev">
+  <a href="(https://ronak-premjani.vercel.app/)">
     <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0A0A0A" alt="Portfolio" />
   </a>
 </div>
