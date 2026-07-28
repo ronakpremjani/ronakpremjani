@@ -202,7 +202,7 @@ const ronak = {
         linkedin:   "linkedin.com/in/ronakpremjani",
         github:     "github.com/ronakpremjani",
         email:      "ronakpremjani8@gmail.com",
-        portfolio:  "",
+        portfolio:  "https://ronak-premjani.vercel.app/",
     },
 
 };
